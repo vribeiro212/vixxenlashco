@@ -24,24 +24,26 @@ top:10;
 	margin-right: auto;
 	vertical-align: baseline;
 }
-.column {
-  float: left;
-  width: 700%;
-  padding: 50px;
-	flex:50%;
+.container{
+	max-width: 1200px;
+	margin:auto;
+	overflow:auto;
+}
+.gallery{
+	margin:5px;
+	border:0px solid #FCE0F0;
+	float:left;
+	width:390px;
+}
+.gallery img{
+	width:100%;
+	height:auto;
 }
 
-.column img {
-  margin-top: 40px 10px;
+.desc{
+	padding: 15px;
+	text-align: center;	
 }
-
-.row: after{
-  content: "";
-  display: table;
-  clear: both;
-}
-	
-	
 	
 	
 	
@@ -76,19 +78,36 @@ top:10;
 		<div id="logo">
 			<img src="assets/images/vlclogo.png" width="200"></div>
 <header> <h2> The Vixxen Collection</h2></header>
-		Luxe, drama and mystery, oh my!
+		<p>Luxe, drama and mystery, oh my!
 Shop the VIXXEN collection and
-Seduce with Every Blink!
-		<div class="row">
-		<div class="column">
-		<img src= "assets/images/truvixxen.png" width="200"><p>True Vixxen $12</p>
-		<img src="assets/images/taya.png" width="250" alt="taya"><p>Taya $12</p>
-		<img src="assets/images/princess.png" width="200" alt="princess"><p>Princess $12</p>
-		<img src= "assets/images/amber.png" width="200" alt="amber"> <p>Amber $12</p>
-		<img src="assets/images/seductress.png"width="250"> <p>Seductress $12</p>
-		<img src="assets/images/baddie.png" width="200" alt="baddie"> <p>Baddie $12</p>
+Seduce with Every Blink!</p>
+		
+		<div class="gallery">
+		<img src= "assets/images/truvixxen.png" width="200">
+			<div class="desc">True Vixxen $12 </div>
+			</div>
+		<div class="gallery">
+		<img src="assets/images/taya.png" width="250" height="200" alt="taya">
+		<div class="desc">Taya $12</div>
+			</div>
+		<div class="gallery">
+		<img src="assets/images/princess.png" width="200" height="200" alt="princess">
+			<div class="desc">Princess $12</div>
+			</div>
+			<div class="gallery">
+		<img src= "assets/images/amber.png" width="200"alt="amber">
+				<div class="desc">Amber $12</div>
+			</div>
+		<div class="gallery">
+		<img src="assets/images/baddie.png" width="200" alt="baddie">
+			<div class="desc"> Baddie $12</div>
 			</div>
 		
+			<div class="gallery">
+		<img src="assets/images/seductress.png"width="200" alt="seductress">
+				<div class="desc"> Seductress $12</div>
+			</div>
+			
 		
 
 		
