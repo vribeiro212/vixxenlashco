@@ -1,3 +1,40 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.topnav {
+overflow: hidden;
+top:10;
+	
+}
+
+.topnav{
+  float: right;
+  color:#000000;
+  text-align: right;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+	.social{
+	width: 50;
+	background-color: #F2D3E7;
+	border: 1px solid #000000;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: baseline;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
