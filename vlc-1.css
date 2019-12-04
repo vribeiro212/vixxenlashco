@@ -55,31 +55,39 @@ margin: auto;
 border: 3px #F8D3F2}
 	
 }
-.vixxenpackaging{
-	float: center;
+vixxenpackaging{
+	margin-left:auto;
+	margin-right: auto;
+	width: 30%;
 	
-}
-.item1{
+}	
+.img-container{
 	float:left;
-	margin:20px;
-	width: 30%;
-	margin:1%;
-	height: 100px;
+	width: 50%
+  border-radius: 10px;
+  padding: 120px;
+  width: 100px;
+	margin-left: auto;
+	margin-right: auto;
 }
-.1tem2{
-	float:left;
-	margin:20px;
-	width: 30%;
-	margin:1%;
-	height: 100px;
+.clearfix::after{
+	content: "";
+	clear:both;
+	display: table;
 }
-.item3{
-	float:left;
-	margin:20px;
-	width: 30%;
-	margin:1%;
-	height: 100px;
+footer{
+	bottom: 20px;
+	margin-left:auto;
+	margin-right: auto;
+	border: 0px solid #FACDE4;
+  border-radius: 10px;
+  padding: 0px;
+  width: 370px;
 }
+
+
+
+	
 
 
 
