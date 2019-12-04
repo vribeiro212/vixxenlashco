@@ -20,6 +20,8 @@ body{
 .topnav {
   overflow: hidden;
   background-color:#F8D7F1;
+position:sticky;
+top:0;
 }
 
 .topnav a {
@@ -54,11 +56,22 @@ border: 3px #F8D3F2}
 	
 }
 .vixxenpackaging{
-	position: fixed;
+	float: center;
+	
 }
 .item1{
-	position:fixed;
-	left: 50px;
+	float:left;
+	margin:20px;
+	width: 30%;
+	margin:1%;
+	height: 100px;
+}
+.1tem2{
+	float:left;
+	margin:20px;
+	width: 30%;
+	margin:1%;
+	height: 100px;
 }
 
 
