@@ -1,8 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-
-
-
 		.topnav {
 		overflow: hidden;
 		top:10;
@@ -64,10 +61,9 @@ p{
 	text-align: left;
 	text-transform: uppercase;
 	font-size: 17em;
-	letter-spacing: 0.2em;
-	
-	
-	
+	letter-spacing: 0.2em;	
 }
-	
+.desc{
+	font-family: 'Poiret One', cursive;
+}
 	
