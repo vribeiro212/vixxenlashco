@@ -1,9 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.topnav {
-overflow: hidden;
-top:10;
+
+
+		.topnav {
+		overflow: hidden;
+		top:10;
 	
 }
 
@@ -16,7 +18,8 @@ top:10;
   font-size: 17px;
 }
 	.social{
-	width: 50;
+	width: 2000px;
+	height: 30px;
 	background-color: #F2D3E7;
 	border: 1px solid #000000;
 	margin-left: auto;
@@ -28,31 +31,43 @@ top:10;
 	margin:auto;
 	overflow:auto;
 }
-.gallery{
-	margin:5px;
-	border:1px solid #FCE0F0;
-	float:left;
-	width:390px;
+		.socialimg img{
+	width: 20%;
+	max-width: 28px;
+	height: auto;
+	vertical-align: middle;
+		
 }
-.gallery img{
-	width:100px;
-	height:auto;
+	.logo img{
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+	width: 5px;
+	
 }
-
-.desc{
-	padding: 15px;
-	text-align: center;	
+header{
+	width:100%;
+	top:100px;
+	padding:1.5em;
+	position:absolute;
 }
 h2{
-	font: "josefin-sans";
+	color: black;
+	text-transform: uppercase;
+	font-size: 10em;
+	letter-spacing: 0.85.em;	
 	
 }
-h3{
-	font: "amatic-sc";
+p{
+	font-family: "advent-pro";
+	color: black;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 17em;
+	letter-spacing: 0.2em;
+	
+	
 	
 }
-
-footer{
-	padding:10px;
 	
-}
+	
