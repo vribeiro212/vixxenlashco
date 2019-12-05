@@ -63,7 +63,27 @@ p{
 	font-size: 17em;
 	letter-spacing: 0.2em;	
 }
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
 .desc{
 	font-family: 'Poiret One', cursive;
 }
+footer{
+	float: right;
+	width: 40%;
+	position: relative;
+}
+footer p{
 	
+}
+.col{
+	width: 25%;
+	
+}
