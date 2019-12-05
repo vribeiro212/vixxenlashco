@@ -7,8 +7,9 @@
 	margin:auto;
 }	
 body{
-	margin:0;
-font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	margin-left:auto;
+	margin-right: auto;
+font-family: "Baskerville", "Palatino Linotype", "Palatino", "Century Schoolbook L", "Times New Roman", "serif";
 }
 .topnav {
 overflow: hidden;
@@ -26,66 +27,39 @@ top:10;
 }
 
 
-section{
-	margin:auto;
-	padding: 0px;
-	float:clear;
-	width: 570px;
-	height: 400px;
-}
 
+img{
+	width: 20%;
+	max-width: 50%;
+	height: auto;
+	vertical-align: middle;
 		
-.vixxenpackaging{
-	margin-left:auto;
-	margin-right: auto;
-	width: 30%;
-	
-}	
-
-.img-container{
-	float:left;
-	width: 50%
-  border-radius: 10px;
-  padding: 2px 200px ;
-  width: 65px;
-	margin: auto;
-	position: relative;
-	
-	
-	
 }
 	
+	.socialimg img{
+	width: 20%;
+	max-width: 28px;
+	height: auto;
+	vertical-align: middle;
+		
 }
-.clearfix::after{
-	content: "";
-	clear:both;
-	display: table;
-}
-	.social{
-	width: 50;
-	background-color: #F2D3E7;
-	border: 1px solid #000000;
+.logo img{
 	margin-left: auto;
-	margin-right: auto;
-	vertical-align: baseline;
-}
-.img-container .btn {
-  position: absolute;
-  top: 50%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: white;
-  color: black;
-  font-size: 16px;
-  padding: 20px 50px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+	margin-right:auto;
+	display:block;
+	width: 5px;
+	
 }
 
+	.social{
+	width: 2000px ;
+	height: 30px;
+	background-color: #F2D3E7;
+	border: 0px solid #000000;
+	
+}
 footer{
-	bottom: 20px;
+	bottom: 50px;
 	margin-left:auto;
 	margin-right: auto;
 	border: 0px solid #FACDE4;
@@ -94,10 +68,37 @@ footer{
   width: 39px;
 }
 		
+.hero{
+	background-image: url("assets/images/vlcset.png");
+	background background-size: cover;
+	background-repeat: repeat;
+	padding: 20px 20px 50px 20px;
+	color:black;
+	text-align: center;
+}
+h3{
+	font-size: 60px;
+	font-weight: 300px;
+	margin:100px;
+	font: "italiana";
+}
+.button{
+	border:5px #E8518C solid;
+	padding:8px 30px;
+	border-radius: 30px;
+	color: #e8518c;
+	text-decoration: none;
+}
+	.colimg img{
+	width:30%;
+	float: left;
+	max-width: 50%;
+	height: auto;
+	vertical-align: middle;
+	padding: 0px 7px 14px;
+		}
+}
 
-
-
-	
 	</style>
 
 <meta charset="UTF-8">
@@ -119,17 +120,35 @@ footer{
 	</nav></div>
 
 <header><h3> Free Shipping With Orders Over $30</h3></header>
+		<div class="social">
+			<div class="socialimg"><img src="assets/images/iconinstalogo.png">
+				<img src="assets/images/Twitter-icon.png">
+				 <img src="assets/images/pintresticon.png">
+			</div>
+			
+			 </div>
+	
 
-		<div class="social"></div>
+	<div id="logo"><img src="assets/images/vlclogo.png" alt="logo"></div>
+
+		
 	 
 	<div class=clearfix>
-	<div class="social"><img src="assets/images/iconinstalogo.png" width="20"><img src="assets/images/Twitter-icon.png" width="20"><img src="assets/images/pintresticon.png" width="20"></div>
-		 <div id="logo"><img src="assets/images/vlclogo.png" width="200" alt="logo"></div>
-<div class="vixxenpackaging"><img src="assets/images/vixxenpacking.png" width="700" height="500"></div>
-	<div class="img-container"><img src="assets/images/prettyeyes.png" width="270" alt="triple eyes"><button class="btn">SHOP VIXXEN</button></div>
-<div class="img-container"><img src="assets/images/vlcset.png" width="350" alt="vlc set"><button class="btn">SHOP VIXXEN</button></div>
-<div class="img-container"><img src="assets/images/eyelash2.jpg" width="250"><button class="btn">SHOP VIXXEN</button></div>	
+
+	<div class="row">
+	<div class="hero">
+		<h3>Lashes for every reason and every season.</h3>
+		<a href="whatsnew.html" class="button">WHAT'S NEW</a>
+		</div>
+		</div>
+		
+	<div class="row">
+		<div class="colimg"><img src="assets/images/eyelash2.jpg" alt="5eyes">
+			<a href="lashes.html"></a>
+		<img src="assets/images/vixxenpacking.png" alt="vlcset"><a href="whatsnew.html">
+		<img src="assets/images/prettyeyes.png" alt="tripleeyes"><a href="lashes.html"></a></div>
+</div>
 	</div>
 </body>
-		<div class=".footer"><footer><img src="assets/images/seduceweb.png" alt="eye slogan"></footer></div>
+		<div class="footer"><footer><img src="assets/images/seduceweb.png" alt="eye slogan"></footer></div>
 </html>
