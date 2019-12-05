@@ -74,6 +74,14 @@ p{
 	.desc{
 	font-family: 'Poiret One', cursive;
 }
+	.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
 	footer{
 	float: center;
 	width: 35%;
@@ -131,15 +139,22 @@ Shop the VIXXEN collection and
 Seduce with Every Blink!</p>
 		</div>
 		
-		
-		<div class="lashesimg">
-		
+		<div class="row">
+		<div class="row">
+		<div class="col">
+		<div class="col">
+			<div class="lashesimg">
 		<img src= "assets/images/truvixxen.png" width="250" alt="true vixxen"><div class="desc"> True Vixxen $12</div>
 			<img src="assets/images/taya.png" width="250" alt="taya"> <div class="desc">Taya $12 </div>
 		<img src="assets/images/princess.png" width="250" alt="princess"> <div class="desc"> Princess $12</div>
 			<img src= "assets/images/amber.png" width="250" alt="amber"> <div class="desc"> Amber $12</div>
 		<img src="assets/images/seductress.png" width="250" alt="seductress"><div class="desc">  Seductress $12</div>
 			<img src="assets/images/baddie.png" width="250" alt="baddie"><div class="desc">  Baddie $12</div>
+			</div>
+			</div>
+			</div>
+		
+		</div>
 		
 		<footer>
 			<p> Website Design by @vrichmedia for more information contact us.</p> <img src="assets/images/seduceweb.png">
